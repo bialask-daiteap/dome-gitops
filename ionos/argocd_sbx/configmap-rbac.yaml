@@ -8,7 +8,3 @@ metadata:
   namespace: argocd
 data:
   policy.default: role:readonly
-  policy.csv: |
-    g, CggyNDUyNDUxOBIGZ2l0aHVi, role:admin
-    g, karol.bialas@daiteap.com, role:admin
-    g, bialask-daiteap, role:admin
