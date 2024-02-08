@@ -20,6 +20,6 @@ data:
         name: GitHub
         config:
           clientID: 4eff9d054669dee85f3a
-          clientSecret: $github-secret-sbx:clientSecret
+          clientSecret: $github-secret:clientSecret
           orgs:
           - name: DOME-Marketplace
