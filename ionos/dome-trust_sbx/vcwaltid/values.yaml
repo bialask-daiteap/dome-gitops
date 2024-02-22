@@ -1,12 +1,12 @@
 # Organisation DID
-did: did:web:onboarding.dome-marketplace.org
+did: did:web:onboarding.dome-marketplace-sbx.org
 
 ingress:
   enabled: true
   annotations: 
-    cert-manager.io/cluster-issuer: letsencrypt-aws-prod
+    cert-manager.io/cluster-issuer: letsencrypt-sbx-issuer
   class: nginx
-  host: onboarding.dome-marketplace.org
+  host: onboarding.dome-marketplace-sbx.org
   tls: 
     enabled: true
 
