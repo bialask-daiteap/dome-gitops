@@ -11,7 +11,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: ionos/marketplace/mongodb
+    path: ionos/marketplace_sbx/mongodb
     repoURL: https://github.com/bialask-daiteap/dome-gitops
     targetRevision: HEAD
   syncPolicy:
