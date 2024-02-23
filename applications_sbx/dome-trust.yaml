@@ -1,17 +1,17 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: mongodb
+  name: dome-trust
   namespace: argocd
   labels:
-    purpose: marketplace
+    purpose: trust-anchor
 spec:
   destination:
-    namespace: marketplace
+    namespace: dome-trust
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: ionos/marketplace_sbx/mongodb
+    path: applications_sbx/dome-trust
     repoURL: https://github.com/bialask-daiteap/dome-gitops
     targetRevision: HEAD
   syncPolicy:

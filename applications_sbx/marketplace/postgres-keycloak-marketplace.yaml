@@ -11,8 +11,8 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: ionos/marketplace/iam/postgres
-    repoURL: https://github.com/DOME-Marketplace/dome-gitops
+    path: ionos/marketplace_sbx/iam/postgres
+    repoURL: https://github.com/bialask-daiteap/dome-gitops
     targetRevision: HEAD
   syncPolicy:
     automated:

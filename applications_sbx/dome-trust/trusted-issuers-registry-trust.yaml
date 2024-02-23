@@ -11,8 +11,8 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: ionos/dome-trust/trusted-issuers-registry
-    repoURL: https://github.com/DOME-Marketplace/dome-gitops
+    path: ionos/dome-trust_sbx/trusted-issuers-registry
+    repoURL: https://github.com/bialask-daiteap/dome-gitops
     targetRevision: HEAD
   syncPolicy:
     automated:
