@@ -17,7 +17,6 @@ Create Zone for the domain(s) to be used in Ionos DNS API via:
     }
     }'
 
-
 1. Add bitnami helm chart:
 
 
